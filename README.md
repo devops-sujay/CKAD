@@ -1,4 +1,4 @@
-****<h1>Base Setup</h1>
+<h1>Preparation</h1>
 
 ShortCuts to Setup Before Start:
 ```
@@ -17,5 +17,6 @@ set shiftwidth=2
 set tabstop=2
 ```
 
-<H>Chapter 1:Core Concepts :<H>
+
+
 
