@@ -1,0 +1,17 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  name: paralleljob
+spec:
+  parallelism: 5
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: busybox
+        name: paralleljob
+        resources: {}
+      restartPolicy: Never
+status: {}
